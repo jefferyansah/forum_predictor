@@ -1,0 +1,8 @@
+
+nltk
+joblib
+uvicorn
+fastapi
+sklearn
+
+
