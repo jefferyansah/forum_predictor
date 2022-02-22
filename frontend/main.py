@@ -5,10 +5,10 @@ import requests
 
 st.header('Forum Predictor App')
 st.image('eliza.png',width=100)
-st.write('Type a question, and I can predict which forum that questions is coming from')
+st.write('Type a question, and I can predict which forum that question is coming from')
 st.write('Questions should come from these categories: `quantumcomputing`, `astronomy`, `martialarts`, `opendata`,`sports`, `ai`, `computergraphics`, `coffee`, `beer`')
 question = st.text_input('Enter Text')
-send = st.button('Predict Forums')
+send = st.button('Predict Forum')
 keys= {'question': question}
 
 
