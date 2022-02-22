@@ -3,7 +3,7 @@ import requests
 
 
 
-st.header('Welcome to the Forum Predictor App built by Emma and Jeff')
+st.header('Welcome to the Forum Predictor App built')
 st.write('Type a question, and I can predict which forum that questions is coming from')
 question = st.text_input('Enter Text')
 send = st.button('Predict Forums')
