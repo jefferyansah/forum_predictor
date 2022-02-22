@@ -20,7 +20,7 @@ elif send and question != '':
     with st.spinner('Wait for it...'):
         prediction = requests.get("http://137.184.226.129/predict-forum", params=keys)
         prediction = prediction.json()
-        st.write('Predicted Class: `{}`'.format(prediction['prediction']))
+        st.write('Predicted Forum: `{}`'.format(prediction['prediction']))
         st.write('Probability: `{}`'.format(prediction['Probability']))
         st.success('Done!')
 
